@@ -1,0 +1,11 @@
+Universitate - program prin care sa evaluam performantele fiecarui tip de angajat:
+
+Clasa abstracta - superclasa, parinte: Angajat
+Sub-clasele - copil:
+Tip de angajat:
+1. profesori
+2. cercetatori
+3. admin
+
+Caracteristici comune: id, nume, salariu
+Caracteristici diferite, metode: calcul salariu anual, descriere rol
