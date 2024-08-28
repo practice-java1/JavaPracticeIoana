@@ -1,4 +1,4 @@
-package main.OOP.Abstraction;
+package main.OOP.Abstraction.ShapeExample;
 
 
 // Clasă concretă care implementează metoda abstractă
