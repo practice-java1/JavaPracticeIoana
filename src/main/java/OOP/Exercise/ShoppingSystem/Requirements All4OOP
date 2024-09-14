@@ -16,3 +16,8 @@ Polymorphism: Implement methods to calculate the total price of an order and app
 
 Abstraction: Use abstract classes and methods to define common interfaces for products and customers.
              Ensure that derived classes implement specific behaviors.
+
+Clothes - 10% discount
+Electronics - 20% discount
+
+PremiumCustomer - 10% discount

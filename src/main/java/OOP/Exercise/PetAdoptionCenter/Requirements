@@ -1,0 +1,26 @@
+We will create a  application for a pet adoption center.
+The main goal is to allow users to add pets for adoption and display the list of available pets.
+
+Class Design:
+
+Pet Class: This will be the base class, with common attributes and methods for all pets
+(name, age, breed, weight).
+
+Dog and Cat Classes: These will inherit from the Pet class and have specific
+attributes or methods for dogs and cats.
+
+AdoptionCenter Class: This class will manage a list of pets available for adoption, allowing us to add pets
+and display the available ones.
+
+
+OOP Concepts:
+
+Encapsulation: Each class will have private attributes with getter and setter methods to protect the data.
+
+Inheritance: The Dog and Cat classes will inherit from the Pet class, reusing common properties.
+
+Polymorphism: We will show how to treat all pets in a generic way using polymorphism (e.g., having a list of Pet objects).
+
+Methods: We will add methods to display pet information and manage the pet list in the adoption center.
+
+Method to display the total number of animals in the center.

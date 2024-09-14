@@ -1,0 +1,23 @@
+School Management System:
+Scenario:
+You need to design a system for managing different types of people in a school, such as Students, Teachers, and Administrators.
+Each person has a name and an ID, and they all share some common actions like viewing their personal details -> displayDetails().
+However, students and teachers have different responsibilities: students can enroll in courses -> enrollCourse(),
+while teachers can teach courses -> handleCourses().
+Administrators can manage schedules -> manageSchedules().
+The system should follow good OOP principles.
+
+OOP Principles Covered:
+
+1.	Encapsulation: Each person's data (e.g., name, ID) should be hidden, and access should be provided via methods.
+
+2.	Inheritance: Student, Teacher, and Administrator should inherit from a common Person class.
+
+3.	Polymorphism: The system should be able to treat all people uniformly, even though their actions differ.
+
+4.	Abstraction: The Person class will define some common behaviors but will leave specific responsibilities to be implemented by the subclasses.
+    Abstract method performActions().
+
+5.	Add TEST class and call the methods created.
+
+
